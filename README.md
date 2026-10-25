@@ -44,3 +44,12 @@ Assinatura de Artefatos (Cosign)
 Verificação de Integridade
 Deploy Automático
 Todas as execuções finais da pipeline foram concluídas com sucesso no GitHub Actions.
+
+Uso de Secrets
+Foi criado um Secret no GitHub Actions para demonstrar o armazenamento seguro de informações sensíveis.
+
+Os Secrets permitem que tokens, senhas e chaves de acesso sejam utilizados na pipeline sem ficarem expostos no código-fonte.
+
+Exemplo criado para o projeto:
+
+MINHA_CHAVE
