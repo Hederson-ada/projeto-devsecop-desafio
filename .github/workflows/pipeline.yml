@@ -97,8 +97,7 @@ jobs:
       # Dica da assinatura real:
       #   cosign sign-blob artifact.tar --bundle artifact.sigstore.json --yes
       - name: ✍️ Assinar artefato
-        run: |
-          cosign sign-blob artifact.tar \ --bundle artifact.sigstore.json \ --yes
+        run: cosign sign-blob artifact.tar --bundle artifact.sigstore.json --yes
 
       # ── Publica o artefato + bundle de assinatura para o próximo job
       - name: ⬆️ Upload do artefato assinado
