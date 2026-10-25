@@ -53,3 +53,5 @@ Os Secrets permitem que tokens, senhas e chaves de acesso sejam utilizados na pi
 Exemplo criado para o projeto:
 
 MINHA_CHAVE
+
+![alt text](image-1.png)
